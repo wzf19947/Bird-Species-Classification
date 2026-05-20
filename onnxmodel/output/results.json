@@ -1,0 +1,691 @@
+[
+  {
+    "filename": "03111_2c0dfa5a-c4a0-47f8-ac89-6a289208050f.jpg",
+    "image_path": "../test_images/03111_2c0dfa5a-c4a0-47f8-ac89-6a289208050f.jpg",
+    "num_birds": 1,
+    "birds": [
+      {
+        "bird_id": 1,
+        "box": [
+          51,
+          66,
+          307,
+          359
+        ],
+        "crop_path": "./output/crops/03111_2c0dfa5a-c4a0-47f8-ac89-6a289208050f_bird_1.jpg",
+        "predictions": [
+          [
+            "03111_Animalia_Chordata_Aves_Accipitriformes_Accipitridae_Accipiter_badius",
+            0.297893226146698
+          ],
+          [
+            "03114_Animalia_Chordata_Aves_Accipitriformes_Accipitridae_Accipiter_nisus",
+            0.15237754583358765
+          ],
+          [
+            "03182_Animalia_Chordata_Aves_Accipitriformes_Accipitridae_Rupornis_magnirostris",
+            0.05323885381221771
+          ],
+          [
+            "03115_Animalia_Chordata_Aves_Accipitriformes_Accipitridae_Accipiter_striatus",
+            0.042443934828042984
+          ],
+          [
+            "03116_Animalia_Chordata_Aves_Accipitriformes_Accipitridae_Accipiter_trivirgatus",
+            0.037535738199949265
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "filename": "03332_01b365c3-a741-4f45-bac2-4345bc901ec6.jpg",
+    "image_path": "../test_images/03332_01b365c3-a741-4f45-bac2-4345bc901ec6.jpg",
+    "num_birds": 1,
+    "birds": [
+      {
+        "bird_id": 1,
+        "box": [
+          149,
+          160,
+          368,
+          224
+        ],
+        "crop_path": "./output/crops/03332_01b365c3-a741-4f45-bac2-4345bc901ec6_bird_1.jpg",
+        "predictions": [
+          [
+            "04472_Animalia_Chordata_Aves_Piciformes_Ramphastidae_Ramphastos_toco",
+            0.32702022790908813
+          ],
+          [
+            "03332_Animalia_Chordata_Aves_Cathartiformes_Cathartidae_Cathartes_burrovianus",
+            0.15240956842899323
+          ],
+          [
+            "03279_Animalia_Chordata_Aves_Bucerotiformes_Bucerotidae_Anthracoceros_albirostris",
+            0.13223350048065186
+          ],
+          [
+            "03765_Animalia_Chordata_Aves_Passeriformes_Corvidae_Cyanocorax_yucatanicus",
+            0.04247691482305527
+          ],
+          [
+            "03592_Animalia_Chordata_Aves_Falconiformes_Falconidae_Caracara_cheriway",
+            0.02005862630903721
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "filename": "03412_0ffc115b-43b4-4474-a373-24233f391de3.jpg",
+    "image_path": "../test_images/03412_0ffc115b-43b4-4474-a373-24233f391de3.jpg",
+    "num_birds": 1,
+    "birds": [
+      {
+        "bird_id": 1,
+        "box": [
+          160,
+          177,
+          280,
+          242
+        ],
+        "crop_path": "./output/crops/03412_0ffc115b-43b4-4474-a373-24233f391de3_bird_1.jpg",
+        "predictions": [
+          [
+            "03418_Animalia_Chordata_Aves_Charadriiformes_Laridae_Larus_glaucoides",
+            0.7255229353904724
+          ],
+          [
+            "03412_Animalia_Chordata_Aves_Charadriiformes_Laridae_Larus_canus",
+            0.048259299248456955
+          ],
+          [
+            "03420_Animalia_Chordata_Aves_Charadriiformes_Laridae_Larus_hyperboreus",
+            0.014915911480784416
+          ],
+          [
+            "03411_Animalia_Chordata_Aves_Charadriiformes_Laridae_Larus_californicus",
+            0.01344192773103714
+          ],
+          [
+            "03214_Animalia_Chordata_Aves_Anseriformes_Anatidae_Anser_rossii",
+            0.005082942545413971
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "filename": "03615_0dfbf6ae-434d-4648-b5d2-08412546ea64.jpg",
+    "image_path": "../test_images/03615_0dfbf6ae-434d-4648-b5d2-08412546ea64.jpg",
+    "num_birds": 1,
+    "birds": [
+      {
+        "bird_id": 1,
+        "box": [
+          161,
+          174,
+          279,
+          366
+        ],
+        "crop_path": "./output/crops/03615_0dfbf6ae-434d-4648-b5d2-08412546ea64_bird_1.jpg",
+        "predictions": [
+          [
+            "03615_Animalia_Chordata_Aves_Galliformes_Cracidae_Ortalis_vetula",
+            0.812217652797699
+          ],
+          [
+            "03613_Animalia_Chordata_Aves_Galliformes_Cracidae_Ortalis_cinereiceps",
+            0.1054256483912468
+          ],
+          [
+            "03939_Animalia_Chordata_Aves_Passeriformes_Menuridae_Menura_novaehollandiae",
+            0.021830987185239792
+          ],
+          [
+            "03617_Animalia_Chordata_Aves_Galliformes_Cracidae_Penelope_obscura",
+            0.0023122888524085283
+          ],
+          [
+            "03614_Animalia_Chordata_Aves_Galliformes_Cracidae_Ortalis_poliocephala",
+            0.0012437088880687952
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "filename": "04251_3a52191e-be71-4539-98ea-14a8f2347330.jpg",
+    "image_path": "../test_images/04251_3a52191e-be71-4539-98ea-14a8f2347330.jpg",
+    "num_birds": 1,
+    "birds": [
+      {
+        "bird_id": 1,
+        "box": [
+          165,
+          54,
+          303,
+          316
+        ],
+        "crop_path": "./output/crops/04251_3a52191e-be71-4539-98ea-14a8f2347330_bird_1.jpg",
+        "predictions": [
+          [
+            "04251_Animalia_Chordata_Aves_Passeriformes_Tityridae_Tityra_semifasciata",
+            0.9172905087471008
+          ],
+          [
+            "04019_Animalia_Chordata_Aves_Passeriformes_Oriolidae_Sphecotheres_vieilloti",
+            0.0013983107637614012
+          ],
+          [
+            "03696_Animalia_Chordata_Aves_Passeriformes_Artamidae_Artamus_leucorynchus",
+            0.0013664530124515295
+          ],
+          [
+            "04219_Animalia_Chordata_Aves_Passeriformes_Thraupidae_Paroaria_capitata",
+            0.0010199728421866894
+          ],
+          [
+            "03561_Animalia_Chordata_Aves_Coraciiformes_Alcedinidae_Todiramphus_chloris",
+            0.0006693957257084548
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "filename": "04405_0c5a6785-0bc2-49d9-9702-b9e94ba9b686.jpg",
+    "image_path": "../test_images/04405_0c5a6785-0bc2-49d9-9702-b9e94ba9b686.jpg",
+    "num_birds": 14,
+    "birds": [
+      {
+        "bird_id": 1,
+        "box": [
+          232,
+          87,
+          270,
+          119
+        ],
+        "crop_path": "./output/crops/04405_0c5a6785-0bc2-49d9-9702-b9e94ba9b686_bird_1.jpg",
+        "predictions": [
+          [
+            "03459_Animalia_Chordata_Aves_Charadriiformes_Scolopacidae_Calidris_himantopus",
+            0.4725293219089508
+          ],
+          [
+            "03471_Animalia_Chordata_Aves_Charadriiformes_Scolopacidae_Gallinago_delicata",
+            0.12310171127319336
+          ],
+          [
+            "03412_Animalia_Chordata_Aves_Charadriiformes_Laridae_Larus_canus",
+            0.06125510111451149
+          ],
+          [
+            "03473_Animalia_Chordata_Aves_Charadriiformes_Scolopacidae_Limnodromus_griseus",
+            0.03571915626525879
+          ],
+          [
+            "03465_Animalia_Chordata_Aves_Charadriiformes_Scolopacidae_Calidris_pugnax",
+            0.028949933126568794
+          ]
+        ]
+      },
+      {
+        "bird_id": 2,
+        "box": [
+          422,
+          168,
+          450,
+          208
+        ],
+        "crop_path": "./output/crops/04405_0c5a6785-0bc2-49d9-9702-b9e94ba9b686_bird_2.jpg",
+        "predictions": [
+          [
+            "03254_Animalia_Chordata_Aves_Anseriformes_Anatidae_Mareca_penelope",
+            0.30645444989204407
+          ],
+          [
+            "04399_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Eudocimus_albus",
+            0.11091785132884979
+          ],
+          [
+            "03213_Animalia_Chordata_Aves_Anseriformes_Anatidae_Anser_indicus",
+            0.09966821223497391
+          ],
+          [
+            "03407_Animalia_Chordata_Aves_Charadriiformes_Laridae_Ichthyaetus_ichthyaetus",
+            0.026625461876392365
+          ],
+          [
+            "03202_Animalia_Chordata_Aves_Anseriformes_Anatidae_Anas_poecilorhyncha",
+            0.019980689510703087
+          ]
+        ]
+      },
+      {
+        "bird_id": 3,
+        "box": [
+          438,
+          164,
+          470,
+          207
+        ],
+        "crop_path": "./output/crops/04405_0c5a6785-0bc2-49d9-9702-b9e94ba9b686_bird_3.jpg",
+        "predictions": [
+          [
+            "03473_Animalia_Chordata_Aves_Charadriiformes_Scolopacidae_Limnodromus_griseus",
+            0.1653900295495987
+          ],
+          [
+            "04483_Animalia_Chordata_Aves_Podicipediformes_Podicipedidae_Tachybaptus_dominicus",
+            0.07153555750846863
+          ],
+          [
+            "03488_Animalia_Chordata_Aves_Charadriiformes_Scolopacidae_Tringa_erythropus",
+            0.03177666291594505
+          ],
+          [
+            "03459_Animalia_Chordata_Aves_Charadriiformes_Scolopacidae_Calidris_himantopus",
+            0.0296153761446476
+          ],
+          [
+            "03412_Animalia_Chordata_Aves_Charadriiformes_Laridae_Larus_canus",
+            0.02748929336667061
+          ]
+        ]
+      },
+      {
+        "bird_id": 4,
+        "box": [
+          443,
+          217,
+          500,
+          364
+        ],
+        "crop_path": "./output/crops/04405_0c5a6785-0bc2-49d9-9702-b9e94ba9b686_bird_4.jpg",
+        "predictions": [
+          [
+            "03462_Animalia_Chordata_Aves_Charadriiformes_Scolopacidae_Calidris_melanotos",
+            0.24476604163646698
+          ],
+          [
+            "03484_Animalia_Chordata_Aves_Charadriiformes_Scolopacidae_Phalaropus_lobatus",
+            0.16999781131744385
+          ],
+          [
+            "03444_Animalia_Chordata_Aves_Charadriiformes_Recurvirostridae_Recurvirostra_americana",
+            0.11635065823793411
+          ],
+          [
+            "03465_Animalia_Chordata_Aves_Charadriiformes_Scolopacidae_Calidris_pugnax",
+            0.10960569977760315
+          ],
+          [
+            "03476_Animalia_Chordata_Aves_Charadriiformes_Scolopacidae_Limosa_haemastica",
+            0.02329166606068611
+          ]
+        ]
+      },
+      {
+        "bird_id": 5,
+        "box": [
+          164,
+          0,
+          232,
+          36
+        ],
+        "crop_path": "./output/crops/04405_0c5a6785-0bc2-49d9-9702-b9e94ba9b686_bird_5.jpg",
+        "predictions": [
+          [
+            "03514_Animalia_Chordata_Aves_Columbiformes_Columbidae_Columba_livia",
+            0.6035717129707336
+          ],
+          [
+            "03759_Animalia_Chordata_Aves_Passeriformes_Corvidae_Corvus_ossifragus",
+            0.04012080281972885
+          ],
+          [
+            "03239_Animalia_Chordata_Aves_Anseriformes_Anatidae_Cygnus_atratus",
+            0.03653660789132118
+          ],
+          [
+            "03758_Animalia_Chordata_Aves_Passeriformes_Corvidae_Corvus_monedula",
+            0.030439389869570732
+          ],
+          [
+            "03225_Animalia_Chordata_Aves_Anseriformes_Anatidae_Branta_bernicla",
+            0.02018093317747116
+          ]
+        ]
+      },
+      {
+        "bird_id": 6,
+        "box": [
+          26,
+          0,
+          75,
+          34
+        ],
+        "crop_path": "./output/crops/04405_0c5a6785-0bc2-49d9-9702-b9e94ba9b686_bird_6.jpg",
+        "predictions": [
+          [
+            "03514_Animalia_Chordata_Aves_Columbiformes_Columbidae_Columba_livia",
+            0.38318848609924316
+          ],
+          [
+            "03225_Animalia_Chordata_Aves_Anseriformes_Anatidae_Branta_bernicla",
+            0.06036417558789253
+          ],
+          [
+            "03434_Animalia_Chordata_Aves_Charadriiformes_Laridae_Sterna_striata",
+            0.04027684032917023
+          ],
+          [
+            "03438_Animalia_Chordata_Aves_Charadriiformes_Laridae_Thalasseus_elegans",
+            0.03917033597826958
+          ],
+          [
+            "04515_Animalia_Chordata_Aves_Psittaciformes_Psittacidae_Myiopsitta_monachus",
+            0.034151945263147354
+          ]
+        ]
+      },
+      {
+        "bird_id": 7,
+        "box": [
+          0,
+          0,
+          28,
+          38
+        ],
+        "crop_path": "./output/crops/04405_0c5a6785-0bc2-49d9-9702-b9e94ba9b686_bird_7.jpg",
+        "predictions": [
+          [
+            "04414_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Threskiornis_molucca",
+            0.1434738039970398
+          ],
+          [
+            "03759_Animalia_Chordata_Aves_Passeriformes_Corvidae_Corvus_ossifragus",
+            0.07303840667009354
+          ],
+          [
+            "03225_Animalia_Chordata_Aves_Anseriformes_Anatidae_Branta_bernicla",
+            0.044183243066072464
+          ],
+          [
+            "03514_Animalia_Chordata_Aves_Columbiformes_Columbidae_Columba_livia",
+            0.026563381776213646
+          ],
+          [
+            "03417_Animalia_Chordata_Aves_Charadriiformes_Laridae_Larus_glaucescens",
+            0.022095361724495888
+          ]
+        ]
+      },
+      {
+        "bird_id": 8,
+        "box": [
+          332,
+          52,
+          433,
+          108
+        ],
+        "crop_path": "./output/crops/04405_0c5a6785-0bc2-49d9-9702-b9e94ba9b686_bird_8.jpg",
+        "predictions": [
+          [
+            "03661_Animalia_Chordata_Aves_Gruiformes_Rallidae_Gallinula_galeata",
+            0.1396155208349228
+          ],
+          [
+            "03656_Animalia_Chordata_Aves_Gruiformes_Rallidae_Fulica_ardesiaca",
+            0.09464877098798752
+          ],
+          [
+            "03659_Animalia_Chordata_Aves_Gruiformes_Rallidae_Fulica_cristata",
+            0.031001700088381767
+          ],
+          [
+            "03246_Animalia_Chordata_Aves_Anseriformes_Anatidae_Dendrocygna_bicolor",
+            0.02119874209165573
+          ],
+          [
+            "03660_Animalia_Chordata_Aves_Gruiformes_Rallidae_Gallinula_chloropus",
+            0.018361767753958702
+          ]
+        ]
+      },
+      {
+        "bird_id": 9,
+        "box": [
+          362,
+          237,
+          494,
+          364
+        ],
+        "crop_path": "./output/crops/04405_0c5a6785-0bc2-49d9-9702-b9e94ba9b686_bird_9.jpg",
+        "predictions": [
+          [
+            "03443_Animalia_Chordata_Aves_Charadriiformes_Recurvirostridae_Himantopus_mexicanus",
+            0.1380976289510727
+          ],
+          [
+            "03476_Animalia_Chordata_Aves_Charadriiformes_Scolopacidae_Limosa_haemastica",
+            0.07982619851827621
+          ],
+          [
+            "03442_Animalia_Chordata_Aves_Charadriiformes_Recurvirostridae_Himantopus_leucocephalus",
+            0.0572676882147789
+          ],
+          [
+            "03367_Animalia_Chordata_Aves_Charadriiformes_Charadriidae_Pluvialis_dominica",
+            0.03972207382321358
+          ],
+          [
+            "04408_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Plegadis_chihi",
+            0.024074696004390717
+          ]
+        ]
+      },
+      {
+        "bird_id": 10,
+        "box": [
+          208,
+          9,
+          261,
+          68
+        ],
+        "crop_path": "./output/crops/04405_0c5a6785-0bc2-49d9-9702-b9e94ba9b686_bird_10.jpg",
+        "predictions": [
+          [
+            "03659_Animalia_Chordata_Aves_Gruiformes_Rallidae_Fulica_cristata",
+            0.302295982837677
+          ],
+          [
+            "03656_Animalia_Chordata_Aves_Gruiformes_Rallidae_Fulica_ardesiaca",
+            0.08561327308416367
+          ],
+          [
+            "03655_Animalia_Chordata_Aves_Gruiformes_Rallidae_Fulica_americana",
+            0.03460237383842468
+          ],
+          [
+            "03275_Animalia_Chordata_Aves_Anseriformes_Anatidae_Tadorna_tadornoides",
+            0.02581341750919819
+          ],
+          [
+            "03274_Animalia_Chordata_Aves_Anseriformes_Anatidae_Tadorna_tadorna",
+            0.018758663907647133
+          ]
+        ]
+      },
+      {
+        "bird_id": 11,
+        "box": [
+          304,
+          101,
+          426,
+          180
+        ],
+        "crop_path": "./output/crops/04405_0c5a6785-0bc2-49d9-9702-b9e94ba9b686_bird_11.jpg",
+        "predictions": [
+          [
+            "04402_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Platalea_ajaja",
+            0.1254410296678543
+          ],
+          [
+            "04404_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Platalea_flavipes",
+            0.10979311913251877
+          ],
+          [
+            "04399_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Eudocimus_albus",
+            0.039928823709487915
+          ],
+          [
+            "04407_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Platalea_regia",
+            0.02327575348317623
+          ],
+          [
+            "04408_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Plegadis_chihi",
+            0.019953591749072075
+          ]
+        ]
+      },
+      {
+        "bird_id": 12,
+        "box": [
+          4,
+          110,
+          131,
+          190
+        ],
+        "crop_path": "./output/crops/04405_0c5a6785-0bc2-49d9-9702-b9e94ba9b686_bird_12.jpg",
+        "predictions": [
+          [
+            "04399_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Eudocimus_albus",
+            0.4602818489074707
+          ],
+          [
+            "04408_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Plegadis_chihi",
+            0.07117649912834167
+          ],
+          [
+            "04404_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Platalea_flavipes",
+            0.053516048938035965
+          ],
+          [
+            "04407_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Platalea_regia",
+            0.01758703589439392
+          ],
+          [
+            "04403_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Platalea_alba",
+            0.011811858974397182
+          ]
+        ]
+      },
+      {
+        "bird_id": 13,
+        "box": [
+          49,
+          76,
+          272,
+          308
+        ],
+        "crop_path": "./output/crops/04405_0c5a6785-0bc2-49d9-9702-b9e94ba9b686_bird_13.jpg",
+        "predictions": [
+          [
+            "04405_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Platalea_leucorodia",
+            0.23750123381614685
+          ],
+          [
+            "04404_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Platalea_flavipes",
+            0.07788579910993576
+          ],
+          [
+            "04403_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Platalea_alba",
+            0.07625838369131088
+          ],
+          [
+            "04399_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Eudocimus_albus",
+            0.053747378289699554
+          ],
+          [
+            "04408_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Plegadis_chihi",
+            0.012186025269329548
+          ]
+        ]
+      },
+      {
+        "bird_id": 14,
+        "box": [
+          124,
+          84,
+          375,
+          309
+        ],
+        "crop_path": "./output/crops/04405_0c5a6785-0bc2-49d9-9702-b9e94ba9b686_bird_14.jpg",
+        "predictions": [
+          [
+            "04404_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Platalea_flavipes",
+            0.5112037658691406
+          ],
+          [
+            "04405_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Platalea_leucorodia",
+            0.09174524992704391
+          ],
+          [
+            "04403_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Platalea_alba",
+            0.02421349473297596
+          ],
+          [
+            "04399_Animalia_Chordata_Aves_Pelecaniformes_Threskiornithidae_Eudocimus_albus",
+            0.01050835195928812
+          ],
+          [
+            "03505_Animalia_Chordata_Aves_Ciconiiformes_Ciconiidae_Ciconia_nigra",
+            0.003697429085150361
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "filename": "04593_3d74d5a7-15b1-4bb9-af6f-1bcd78485787.jpg",
+    "image_path": "../test_images/04593_3d74d5a7-15b1-4bb9-af6f-1bcd78485787.jpg",
+    "num_birds": 1,
+    "birds": [
+      {
+        "bird_id": 1,
+        "box": [
+          224,
+          126,
+          273,
+          298
+        ],
+        "crop_path": "./output/crops/04593_3d74d5a7-15b1-4bb9-af6f-1bcd78485787_bird_1.jpg",
+        "predictions": [
+          [
+            "04593_Animalia_Chordata_Aves_Trogoniformes_Trogonidae_Trogon_elegans",
+            0.9547113180160522
+          ],
+          [
+            "04592_Animalia_Chordata_Aves_Trogoniformes_Trogonidae_Trogon_collaris",
+            0.018413793295621872
+          ],
+          [
+            "04591_Animalia_Chordata_Aves_Trogoniformes_Trogonidae_Trogon_citreolus",
+            0.0012666668044403195
+          ],
+          [
+            "04594_Animalia_Chordata_Aves_Trogoniformes_Trogonidae_Trogon_massena",
+            0.0008165006875060499
+          ],
+          [
+            "04590_Animalia_Chordata_Aves_Trogoniformes_Trogonidae_Trogon_caligatus",
+            0.000660348916426301
+          ]
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "input": "./bird_yolov5n_260327_480_480.onnx",
+  "output_dir": "./bird_yolov5n_260327",
+  "output_name": "bird_det.axmodel",
+  "model_type": "ONNX",
+  "target_hardware": "AX620E",
+  "npu_mode": "NPU1",
+  "input_shapes": "input:1x3x480x480",
+  "quant": {
+    "input_configs": [
+      {
+        "tensor_name": "images",
+        "calibration_dataset": "./bird.tar",
+        "calibration_size": 32,
+        "calibration_mean": [0,0,0],
+        "calibration_std": [255,255,255]
+      }
+    ],
+    "calibration_method": "MinMax",
+    "precision_analysis": true
+  },
+  "input_processors": [
+    {
+      "tensor_name": "images",
+      "tensor_format": "RGB",
+      "tensor_layout": "NCHW",
+      "src_format": "RGB",
+      "src_dtype": "U8",
+      "src_layout": "NCHW",
+      "csc_mode": "NoCSC"
+    }
+  ],
+  "output_processors": [
+    {
+      "tensor_name": "DEFAULT"
+    }
+  ],
+  "compiler": {
+    "check": 2
+  }
+}
+

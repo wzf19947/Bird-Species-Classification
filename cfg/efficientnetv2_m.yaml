@@ -1,0 +1,60 @@
+#{'url': 'https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-effv2-weights/tf_efficientnetv2_m_21ft1k-bf41664a.pth', 'hf_hub_id': 'timm/tf_efficientnetv2_m.in21k_ft_in1k', 'architecture': 'tf_efficientnetv2_m', 'tag': 'in21k_ft_in1k', 'custom_load': False, 'input_size': (3, 384, 384), 'test_input_size': (3, 480, 480), 'fixed_input_size': False, 'interpolation': 'bicubic', 'crop_pct': 1.0, 'crop_mode': 'squash', 'mean': (0.5, 0.5, 0.5), 'std': (0.5, 0.5, 0.5), 'num_classes': 1000, 'pool_size': (12, 12), 'first_conv': 'conv_stem', 'classifier': 'classifier', 'license': 'apache-2.0'}
+
+# 训练数据集，可支持多个数据集
+train_data:
+  - '/home/workspace/Feng/dataset_bird/inaturalist2021/train'
+
+# 测试数据集
+test_data: '/home/workspace/Feng/dataset_bird/inaturalist2021/val'
+
+# 类别文件
+class_name: '/home/workspace/Feng/dataset_bird/inaturalist2021/class_name.txt'
+
+# 数据增强方法
+train_transform: "train"
+test_transform: "val"
+
+# 工作目录
+work_dir: "Birdmodel_inat_efficientnetv2_m_250310/"
+
+# 网络配置
+net_type: "tf_efficientnetv2_m"
+width_mult: 1.0
+
+# 输入尺寸
+input_size: [384, 384]
+
+# 归一化参数
+rgb_mean: [0.5, 0.5, 0.5]
+rgb_std: [0.5, 0.5, 0.5]
+# rgb_mean: [0.485, 0.456, 0.406]
+# rgb_std: [0.229, 0.224, 0.225]
+
+# 训练参数
+batch_size: 48
+lr: 0.01
+optim_type: "SGD"
+loss_type: "CrossEntropyLoss"
+momentum: 0.9
+num_epochs: 100
+num_warn_up: 3
+num_workers: 8
+weight_decay: 0.0005
+
+# 学习率调度
+scheduler: "cosine"
+# milestones: [30, 75]
+
+# 新增配置项 (代码中会自动读取)
+label_smoothing: 0.1    # 开启标签平滑
+
+# GPU配置
+gpu_id: [4]
+
+# 日志配置
+log_freq: 50
+progress: True
+
+# 预训练模型
+pretrained: True
+finetune: True

@@ -1,0 +1,64 @@
+#{'url': 'https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_tiny_patch4_window7_224.pth', 'hf_hub_id': 'timm/swin_tiny_patch4_window7_224.ms_in1k', 'architecture': 'swin_tiny_patch4_window7_224', 'tag': 'ms_in1k', 'custom_load': False, 'input_size': (3, 224, 224), 'fixed_input_size': True, 'interpolation': 'bicubic', 'crop_pct': 0.9, 'crop_mode': 'center', 'mean': (0.485, 0.456, 0.406), 'std': (0.229, 0.224, 0.225), 'num_classes': 1000, 'pool_size': (7, 7), 'first_conv': 'patch_embed.proj', 'classifier': 'head.fc', 'license': 'mit'}
+
+# 训练数据集，可支持多个数据集
+train_data:
+  - '/home/workspace/Feng/dataset_bird/inaturalist2021/train'
+
+# 测试数据集
+test_data: '/home/workspace/Feng/dataset_bird/inaturalist2021/val'
+
+# 类别文件
+class_name: '/home/workspace/Feng/dataset_bird/inaturalist2021/class_name.txt'
+
+# 数据增强方法
+train_transform: "train"
+test_transform: "val"
+
+# 工作目录
+work_dir: "Birdmodel_inat_swin_small_250311/"
+
+# 网络配置
+net_type: "swin_small_patch4_window7_224.ms_in22k_ft_in1k"
+width_mult: 1.0
+
+# 输入尺寸
+input_size: [224, 224]
+
+
+# 归一化参数
+# rgb_mean: [0.5, 0.5, 0.5]
+# rgb_std: [0.5, 0.5, 0.5]
+rgb_mean: [0.485, 0.456, 0.406]
+rgb_std: [0.229, 0.224, 0.225]
+
+# 训练参数
+batch_size: 192
+lr: 0.003
+optim_type: "AdamW"
+loss_type: "CrossEntropyLoss"
+momentum: 0.9
+num_epochs: 100
+num_warm_up: 5
+num_workers: 8
+weight_decay: 0.05
+# 正则化 (Swin Base 384 的典型值)
+drop_rate: 0.0
+drop_path_rate: 0.2  # 0.1 是 Base 的 sweet spot
+
+# 学习率调度
+scheduler: "cosine"
+# milestones: [50, 80]
+
+# 新增配置项 (代码中会自动读取)
+label_smoothing: 0.1    # 开启标签平滑
+
+# GPU配置
+gpu_id: [1]
+
+# 日志配置
+log_freq: 50
+progress: True
+
+# 预训练模型
+pretrained: True
+finetune: True
