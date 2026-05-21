@@ -37,6 +37,8 @@
 ```
 python train.py -c ./cfg/efficientnetv2_s.yaml
 ```
+Benchmark:
+![alt text](benchmark.png)
 
 ## 模型推理
 
